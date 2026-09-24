@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "howToUse": "Tell your assistant: 'Read prompts/prompts.json, find the entry whose name is <promptName>, and execute its prompt field verbatim as the task.' Replace any {{PLACEHOLDER}} with a real value first. The shorter phrasing 'run prompt <name>' works once the file is already in context.",
+    "note": "Only generic entries are included. Build one entry per case yourself, or pass the case slug into build-case as a parameter."
+  },
+  "prompts": [
+    {
+      "name": "bootstrap",
+      "description": "One-time setup: create the working wiki and check for an optional knowledge-graph tool.",
+      "params": [],
+      "prompt": "Run the Bootstrap phase from rules/project-rules.md. First, copy wiki-template/ to a working wiki/ directory if one does not already exist, and confirm it contains _schema.md, index.md, capability-log.md, reusable-heuristics.md, open-threads.md, validated-conclusions.md and a frameworks/ directory. Second, check whether a knowledge-graph tool is available in this environment. This workflow was designed with Understand-Anything (https://github.com/Egonex-AI/Understand-Anything) in mind; it is optional and is not bundled here. If you want it and it is not installed, install it using whatever mechanism this environment provides for importing a skill or plugin from a repository, following that project's own instructions, and verify it actually works before reporting success. Report back: is the wiki in place, and will the knowledge-graph step use a tool or the hand-authored fallback?"
+    },
+    {
+      "name": "lint-wiki",
+      "description": "Standalone maintenance run of the Lint operation against the working wiki.",
+      "params": [],
+      "prompt": "Run only the Lint operation from rules/project-rules.md against the current state of wiki/. Do not build or modify any case package. Check for: contradictions between framework pages or judgment files; staleness, meaning anything in validated-conclusions.md or reusable-heuristics.md that may no longer hold given everything written since; orphaned pages, meaning any frameworks/*.md not linked from index.md; and gaps, meaning any framework used in a case analysis that never got its own frameworks page. Report findings plainly. Fix broken index links directly. For anything else, log it in open-threads.md for human review rather than silently changing a judgment file. Also confirm that no framework page names a specific organisation, person or date: framework pages record transferable method, and anything case-specific belongs in that case's own folder."
+    },
+    {
+      "name": "build-case",
+      "description": "Build a full analysis package for one case. Supply the case slug.",
+      "params": [
+        "CASE"
+      ],
+      "prompt": "Build the full analysis package for the case with slug {{CASE}}, following rules/project-rules.md end to end. Work in cases/{{CASE}}/. Before starting, run the human validation gate: if this run carries forward a conclusion from any earlier case, check that case's row in wiki/validated-conclusions.md, and stop immediately if the row is missing or still marked pending human review. Then work through the steps in order: query the wiki, read the run configuration and the case material in full, carry forward validated conclusions, build the source registry and evidence register, write the concept note, write the claim-driven case analysis, pass the evidence and scope audit, render the diagrams in their standard conventions, write the reflection, update the per-case summary, build the knowledge graph, ingest and lint the wiki, and package the skill file. Apply the quality bar throughout. Stop and report rather than guessing if the case material cannot support a framework you were asked to apply."
+    }
+  ]
+}
