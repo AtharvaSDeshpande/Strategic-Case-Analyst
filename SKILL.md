@@ -1,5 +1,5 @@
 ---
-name: SMAIPlaybook-public-export-claude
+name: Strategic-Case-Analyst
 description: End-to-end workflow for producing the individual strategic-management reflection paper — a Word document, strictly 5-6 pages, that applies six approved frameworks across three real companies (one retail, one IT, one FMCG) through concept-silent first-person narrative, backed by an isolated multi-agent research panel, a fact-checked evidence ledger, nine concept-silent diagrams, and a wiki update. Use when asked to build, rebuild, or extend this specific reflection-paper deliverable in this repository, or when asked to fix its formatting, figures, or page budget.
 ---
 
