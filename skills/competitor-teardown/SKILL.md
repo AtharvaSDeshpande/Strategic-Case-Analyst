@@ -82,5 +82,7 @@ Follow `rules/engagement-rules.md` in full. Specific to this engagement:
 ## Output contract
 
 Work in `work/competitor-teardown/<subject-slug>-<date>/`, per the structure in
-`rules/engagement-rules.md`, with `deliverable.md` (or `.docx` if the user wants a client-ready
-document) containing the matrix, battlecards, and loss note as its three sections.
+`rules/engagement-rules.md`, with `deliverable.docx` — a real, rendered Word document, built per
+`rules/engagement-rules.md`'s Deliverable step, with the matrix and any value-chain exhibit embedded
+as actual images (not described in prose) — containing the matrix, battlecards, and loss note as its
+three sections.

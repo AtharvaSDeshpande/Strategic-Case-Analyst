@@ -82,6 +82,7 @@ Follow `rules/engagement-rules.md`, with this engagement's specific structure:
 ## Output contract
 
 Work in `work/portfolio-review/<company-slug>-<date>/`, per `rules/engagement-rules.md`, with
-`deliverable.md` structured as the matrix, the funding-capacity finding, and the pipeline check, with
-a disclosure-coverage note at the top stating plainly how much of the intended matrix the company's
-actual reporting could support.
+`deliverable.docx` — a real, rendered Word document, built per `rules/engagement-rules.md`'s
+Deliverable step, with the portfolio matrix embedded as an actual image — structured as the matrix,
+the funding-capacity finding, and the pipeline check, with a disclosure-coverage note at the top
+stating plainly how much of the intended matrix the company's actual reporting could support.

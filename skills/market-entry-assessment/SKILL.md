@@ -82,4 +82,6 @@ Follow `rules/engagement-rules.md` in full. Specific to this engagement:
 ## Output contract
 
 Work in `work/market-entry-assessment/<market-slug>-<date>/`, per `rules/engagement-rules.md`, with
-`deliverable.md` structured as the five sections above, in order, ending with the go/no-go.
+`deliverable.docx` — a real, rendered Word document, built per `rules/engagement-rules.md`'s
+Deliverable step, with the five-forces cross and growth-grid embedded as actual images — structured as
+the five sections above, in order, ending with the go/no-go.

@@ -80,5 +80,7 @@ Follow `rules/engagement-rules.md`, with this engagement's specific structure:
 ## Output contract
 
 Work in `work/decision-memo/<decision-slug>-<date>/`, per `rules/engagement-rules.md`, with
-`deliverable.md` (or `.docx`) as the strict two-page memo, and everything else (full ledger,
-cross-examination if run, full audit report) in the supporting files for anyone who wants to check it.
+`deliverable.docx` — a real, rendered Word document, built per `rules/engagement-rules.md`'s
+Deliverable step, with the weighted options table (and sensitivity chart if one was built) embedded as
+actual images — as the strict two-page memo, and everything else (full ledger, cross-examination if
+run, full audit report) in the supporting files for anyone who wants to check it.

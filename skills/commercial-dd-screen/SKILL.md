@@ -78,5 +78,6 @@ Follow `rules/engagement-rules.md` in full. Specific to this engagement:
 ## Output contract
 
 Work in `work/commercial-dd-screen/<target-slug>-<date>/`, per `rules/engagement-rules.md`, with
-`deliverable.md` structured as the four screen sections plus the red-flag register as a fifth,
-explicitly-labeled section.
+`deliverable.docx` — a real, rendered Word document, built per `rules/engagement-rules.md`'s
+Deliverable step, with every exhibit embedded as an actual image — structured as the four screen
+sections plus the red-flag register as a fifth, explicitly-labeled section.

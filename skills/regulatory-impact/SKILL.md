@@ -77,5 +77,7 @@ Follow `rules/engagement-rules.md`, with this engagement's specific structure:
 ## Output contract
 
 Work in `work/regulatory-impact/<regulation-slug>-<date>/`, per `rules/engagement-rules.md`, with
-`deliverable.md` structured as the provision map, the per-player read, and the who-gains summary, in
-that order, with the regulatory stage stated at the top.
+`deliverable.docx` — a real, rendered Word document, built per `rules/engagement-rules.md`'s
+Deliverable step, with the annotated five-forces cross embedded as an actual image — structured as
+the provision map, the per-player read, and the who-gains summary, in that order, with the regulatory
+stage stated at the top.

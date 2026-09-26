@@ -81,5 +81,7 @@ Follow `rules/engagement-rules.md`, adapted for this engagement's lighter weight
 
 Work in `work/competitive-monitor/<subject-slug>-<quarter>/`, per `rules/engagement-rules.md`
 (omitting `panel/` and `cross-examination.md` entirely on quarters where zero or one lens ran, rather
-than leaving empty placeholder files), with `deliverable.md` containing the diff and the staleness
-list as its two sections.
+than leaving empty placeholder files), with `deliverable.docx` — still a real rendered Word document
+per `rules/engagement-rules.md`'s Deliverable step even though it's usually short — containing the
+diff and the staleness list as its two sections. If a tracked exhibit's data changed this quarter,
+its updated image is embedded here too, not just described.
